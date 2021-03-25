@@ -1,14 +1,69 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "users": [
+    {
+      "id": 1,
+      "senha": "senha",
+      "dataNasc": "12/02/1993",
+      "email":"ze@mail.com",
+      "nome": "José Silva"
+    },
+    {
+      "id": 2,
+      "senha": "senha2",
+      "dataNasc": "10/03/1992",
+      "email":"maria@mail.com",
+      "nome": "Maria Silva"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "Roteiros": [
+    {
+      "id": 1,
+      "usuario": 1,
+      "data": "13/02/2021",
+      "passagemIda": 520,
+      "passagemVolta": 600,
+      "duracao": 7,
+      "destino": "Nova York"
+    },
+    {
+      "id": 2,
+      "usuario": 1,
+      "data": "24/04/2022",
+      "passagemIda": 1200,
+      "passagemVolta": 900,
+      "duracao": 12,
+      "destino": "Chile"
+    },
+    {
+      "id": 3,
+      "usuario": 2,
+      "data": "17/06/2021",
+      "passagemIda": 890,
+      "passagemVolta": 876,
+      "duracao": 4,
+      "destino": "Argentina"
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "atividades": [
+    {
+      "id": 1,
+      "roteiro": 1,
+      "dia": 1,
+      "titulo": "Passeio de barco",
+      "descricao": "passear de barco",
+      "valor": 25,
+      "horaInicio": "12:00",
+      "horaFim": "13:30"
+    },
+    {
+      "id": 1,
+      "roteiro": 1,
+      "dia": 2,
+      "titulo": "Passeio de roda gigante",
+      "descricao": "andar na roda gigante",
+      "valor": 25,
+      "horaInicio": "14:00",
+      "horaFim": "14:30"
+    }
+  ]
 }
