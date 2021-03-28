@@ -23,7 +23,25 @@
       "passagemIda": 520,
       "passagemVolta": 600,
       "duracao": 7,
-      "destino": "Nova York"
+      "destino": "Nova York",
+      "atividades": [
+        {
+          "id": 1,
+          "titulo": "Passeio de barco",
+          "descricao": "passear de barco",
+          "valor": 25,
+          "horaInicio": "12:00",
+          "horaFim": "13:30"
+        },
+        {
+          "id": 2,
+          "titulo": "Passeio de roda gigante",
+          "descricao": "andar na roda gigante",
+          "valor": 25,
+          "horaInicio": "14:00",
+          "horaFim": "14:30"
+        }
+      ]
     },
     {
       "id": 2,
@@ -32,7 +50,25 @@
       "passagemIda": 1200,
       "passagemVolta": 900,
       "duracao": 12,
-      "destino": "Chile"
+      "destino": "Chile",
+      "atividades": [
+        {
+          "id": 1,
+          "titulo": "Passeio de barco",
+          "descricao": "passear de barco",
+          "valor": 25,
+          "horaInicio": "12:00",
+          "horaFim": "13:30"
+        },
+        {
+          "id": 2,
+          "titulo": "Passeio de roda gigante",
+          "descricao": "andar na roda gigante",
+          "valor": 25,
+          "horaInicio": "14:00",
+          "horaFim": "14:30"
+        }
+      ]
     },
     {
       "id": 3,
@@ -41,29 +77,25 @@
       "passagemIda": 890,
       "passagemVolta": 876,
       "duracao": 4,
-      "destino": "Argentina"
-    }
-  ],
-  "atividades": [
-    {
-      "id": 1,
-      "roteiro": 1,
-      "dia": 1,
-      "titulo": "Passeio de barco",
-      "descricao": "passear de barco",
-      "valor": 25,
-      "horaInicio": "12:00",
-      "horaFim": "13:30"
-    },
-    {
-      "id": 1,
-      "roteiro": 1,
-      "dia": 2,
-      "titulo": "Passeio de roda gigante",
-      "descricao": "andar na roda gigante",
-      "valor": 25,
-      "horaInicio": "14:00",
-      "horaFim": "14:30"
+      "destino": "Argentina",
+      "atividades": [
+        {
+          "id": 1,
+          "titulo": "Passeio de barco",
+          "descricao": "passear de barco",
+          "valor": 25,
+          "horaInicio": "12:00",
+          "horaFim": "13:30"
+        },
+        {
+          "id": 2,
+          "titulo": "Passeio de roda gigante",
+          "descricao": "andar na roda gigante",
+          "valor": 25,
+          "horaInicio": "14:00",
+          "horaFim": "14:30"
+        }
+      ]
     }
   ]
 }
